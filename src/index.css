@@ -19,8 +19,9 @@
 }
 
 /* Yobr Hover Color */
-.yobr-hover-color {
-  color: #58486f;
+.yobr-hover-color:hover {
+  background-color: #58486f;
+  color: #ffffff;
 }
 
 /* Yobr Primary Text Color */
