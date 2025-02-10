@@ -1,5 +1,4 @@
 > [!NOTE]
->
-> HUSK: Før du pusher kode til Git, kjør kommandoen: npx prettier --write .
->
-> Dette gjør at alle filene blir formatert likt = ryddigere kode å lese.
+> Husk å kjøre prettier på hele prosjektet før du pusher til git. Dette gjøres ved å kjøre følgende kommando i terminalen:
+
+    npx prettier --write .

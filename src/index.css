@@ -1,0 +1,50 @@
+/* Yobr Primary Background Color. */
+.yobr-primary-bg-color {
+  background-color: #200b41;
+}
+
+/* Yobr Secondary Background Color */
+.yobr-secondary-bg-color {
+  background-color: #dfdbe5;
+}
+
+/* Yobr Button Primary Background Color */
+.yobr-button-primary-bg-color {
+  background-color: #e7d8fd;
+}
+
+/* Yobr Button Secondary Background Color */
+.yobr-button-secondary-bg-color {
+  background-color: #e0daea;
+}
+
+/* Yobr Hover Color */
+.yobr-hover-color:hover {
+  background-color: #58486f;
+  color: #ffffff;
+}
+
+/* Yobr Primary Text Color */
+.yobr-primary-text-color {
+  color: #1a0b1e;
+}
+
+/* Yobr Secondary Text Color */
+.yobr-secondary-text-color {
+  color: #756d78;
+}
+
+/* Yobr White Text Color */
+.yobr-white-text-color {
+  color: #fdfdfd;
+}
+
+/* Yobr Domine Font */
+.yobr-domine-font {
+  font-family: "Domine", serif;
+}
+
+/* Yobr Work Sans Font */
+.yobr-work-sans-font {
+  font-family: "Work Sans", sans-serif;
+}
