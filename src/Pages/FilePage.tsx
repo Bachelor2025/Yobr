@@ -1,9 +1,10 @@
 import React from "react";
+import Test from "../Components/Files/Test";
 
 const FilePage = () => {
   return (
-    <section>
-      <h1>Files....</h1>
+    <section className="">
+      <Test />
     </section>
   );
 };
