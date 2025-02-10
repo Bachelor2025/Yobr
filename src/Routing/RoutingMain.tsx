@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainNavigation from "../Shared/MainNavigation";
 import StartPage from "../Pages/StartPage";
-import App from "../App";
 import FilePage from "../Pages/FilePage";
 
 const RoutingMain = () => {
