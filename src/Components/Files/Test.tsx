@@ -23,7 +23,7 @@ export default function Test() {
       <h1 className="yobr-work-sans-font yobr-secondary-text-color">
         Work Sans Font
       </h1>
-      <p>Hello!!!</p>
+      <p>Hello! tullinger</p>
     </div>
   );
 }
