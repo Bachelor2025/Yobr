@@ -1,12 +1,7 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
-import {
-  IoCalendarOutline,
-  IoFolderOutline,
-  IoSettingsOutline,
-} from "react-icons/io5";
+import { IoFolderOutline } from "react-icons/io5";
 import { RiRobot2Line } from "react-icons/ri";
-import { MdOutlineEventNote } from "react-icons/md";
 
 const MainNavigation = () => {
   return (
