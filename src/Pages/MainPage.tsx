@@ -9,15 +9,16 @@ const MainPage = () => {
             type="button"
             className="btn yobr-button-primary-bg-color yobr-hover-color yobr-primary-text-color"
           >
-            Secondary
+            Primary
           </button>
-          <br />
-          <br />
           <button
             type="button"
             className="btn yobr-button-secondary-bg-color yobr-hover-color yobr-primary-text-color"
           >
             Secondary
+          </button>
+          <button type="button" className="btn tab-color">
+            Tab color
           </button>
         </div>
         <h1 className="yobr-domine-font yobr-primary-text-color">
