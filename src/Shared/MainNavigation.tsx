@@ -10,7 +10,7 @@ import { MdOutlineEventNote } from "react-icons/md";
 
 const MainNavigation = () => {
   return (
-    <nav className="yobr-primary-bg-color yobr-white-text-color d-flex flex-column vh-50 p-3">
+    <nav className="yobr-primary-bg-color yobr-white-text-color d-flex flex-column vh-100 p-3 sidebar">
       <ul className="nav flex-column">
         <li className="nav-item">
           <NavLink
