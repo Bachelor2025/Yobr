@@ -1,3 +1,20 @@
+/* YOBR COLORS */
+
+/* Tab Bar Colors */
+.tab-color {
+  background-color: #e0e0e0;
+}
+
+/* Tab bar hover and active color */
+.tab-color:hover {
+  background-color: #dfdbe5;
+  color: #1a0b1e;
+}
+.tab-color:active {
+  background-color: #dfdbe5;
+  color: #1a0b1e;
+}
+
 /* Yobr Primary Background Color. */
 .yobr-primary-bg-color {
   background-color: #200b41;
@@ -18,15 +35,16 @@
   background-color: #e0daea;
 }
 
+/* Hover and Active Effects */
 .yobr-hover-color {
-  padding: 10px 15px; /* Gir luft rundt teksten */
-  margin: 5px 10px; /* Sørger for at hover-effekten ikke går helt til kanten */
-  border-radius: 10px; /* Avrundede kanter */
+  padding: 10px 15px;
+  margin: 5px 10px;
+  border-radius: 10px;
   transition:
     background-color 0.3s ease-in-out,
-    color 0.3s ease-in-out; /* Smooth overgang */
+    color 0.3s ease-in-out;
 }
-/* Yobr Hover Color */
+
 .yobr-hover-color:hover {
   background-color: #58486f;
   color: #fdfdfd;
@@ -51,6 +69,8 @@
 .yobr-white-text-color {
   color: #fdfdfd;
 }
+
+/* YOBR FONTS */
 
 /* Yobr Domine Font */
 .yobr-domine-font {
