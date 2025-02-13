@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
-import { IoFolderOutline } from "react-icons/io5";
+import { IoVideocamOutline } from "react-icons/io5";
 import { RiRobot2Line } from "react-icons/ri";
+import { BsPersonWheelchair } from "react-icons/bs";
 
 const MainNavigation = () => {
   return (
@@ -10,17 +11,25 @@ const MainNavigation = () => {
         <li className="nav-item">
           <NavLink
             className="yobr-white-text-color yobr-hover-color nav-link"
-            to="start"
+            to="main"
           >
-            <RiRobot2Line /> Video
+            <RiRobot2Line /> Main
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink
             className="yobr-white-text-color yobr-hover-color nav-link"
-            to="files"
+            to="video"
           >
-            <IoFolderOutline className="me-2" /> Files
+            <IoVideocamOutline className="me-2" /> Video
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            className="yobr-white-text-color yobr-hover-color nav-link"
+            to="profile"
+          >
+            <BsPersonWheelchair className="me-2" /> Profile
           </NavLink>
         </li>
       </ul>
