@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import React from "react";
 import {
   IoCalendarOutline,
@@ -10,32 +10,51 @@ import { MdOutlineEventNote } from "react-icons/md";
 
 const MainNavigation = () => {
   return (
-    <nav className="yobr-primary-bg-color yobr-white-text-color d-flex flex-column vh-50 p-3">
+    <nav className="yobr-primary-bg-color yobr-white-text-color d-flex flex-column vh-100 p-3 sidebar">
       <ul className="nav flex-column">
         <li className="nav-item">
-          <Link className="yobr-white-text-color nav-link" to="start">
+          <NavLink
+            className="yobr-white-text-color yobr-hover-color nav-link"
+            to="start"
+          >
             <RiRobot2Line /> Ai
-          </Link>
+          </NavLink>
         </li>
+
         <li className="nav-item">
-          <Link className="yobr-white-text-color nav-link" to="files">
+          <NavLink
+            className="yobr-white-text-color yobr-hover-color nav-link"
+            to="files"
+          >
             <IoFolderOutline className="me-2" /> Files
-          </Link>
+          </NavLink>
         </li>
+
         <li className="nav-item">
-          <Link className="yobr-white-text-color nav-link" to="files">
+          <NavLink
+            className="yobr-white-text-color yobr-hover-color nav-link"
+            to="comments"
+          >
             <MdOutlineEventNote className="me-2" /> Comments
-          </Link>
+          </NavLink>
         </li>
+
         <li className="nav-item">
-          <Link className="yobr-white-text-color nav-link" to="files">
+          <NavLink
+            className="yobr-white-text-color yobr-hover-color nav-link"
+            to="calendar"
+          >
             <IoCalendarOutline className="me-2" /> Calendar
-          </Link>
+          </NavLink>
         </li>
+
         <li className="nav-item">
-          <Link className="yobr-white-text-color nav-link" to="files">
+          <NavLink
+            className="yobr-white-text-color nav-link yobr-hover-color"
+            to="settings"
+          >
             <IoSettingsOutline className="me-2" /> Settings
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
