@@ -18,10 +18,23 @@
   background-color: #e0daea;
 }
 
+.yobr-hover-color {
+  padding: 10px 15px; /* Gir luft rundt teksten */
+  margin: 5px 10px; /* Sørger for at hover-effekten ikke går helt til kanten */
+  border-radius: 10px; /* Avrundede kanter */
+  transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out; /* Smooth overgang */
+}
 /* Yobr Hover Color */
 .yobr-hover-color:hover {
   background-color: #58486f;
-  color: #ffffff;
+  color: #fdfdfd;
+}
+
+.yobr-hover-color.active {
+  background-color: #58486f;
+  color: #fdfdfd;
 }
 
 /* Yobr Primary Text Color */
