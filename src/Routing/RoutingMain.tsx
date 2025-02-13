@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainNavigation from "../Shared/MainNavigation";
-import StartPage from "../Pages/StartPage";
-import FilePage from "../Pages/FilePage";
+import ProfilePage from "../Pages/ProfilePage";
+import VideoPage from "../Pages/VideoPage";
+import MainPage from "../Pages/MainPage";
 
 const RoutingMain = () => {
   return (
@@ -13,9 +14,9 @@ const RoutingMain = () => {
 
       <main className="container">
         <Routes>
-          <Route path="/" element={<h1> Hksns </h1>} />
-          <Route path="files" element={<FilePage />} />
-          <Route path="start" element={<StartPage />} />
+          <Route path="main" element={<MainPage />} />
+          <Route path="video" element={<VideoPage />} />
+          <Route path="profile" element={<ProfilePage />} />
         </Routes>
       </main>
     </BrowserRouter>
