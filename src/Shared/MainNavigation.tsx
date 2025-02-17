@@ -17,7 +17,7 @@ const MainNavigation = () => {
             className="yobr-white-text-color yobr-hover-color nav-link"
             to="start"
           >
-            <RiRobot2Line /> Aiiiiiii!!
+            <RiRobot2Line /> Ai
           </NavLink>
         </li>
 
@@ -26,7 +26,7 @@ const MainNavigation = () => {
             className="yobr-white-text-color yobr-hover-color nav-link"
             to="files"
           >
-            <IoFolderOutline className="me-2" /> Files
+            <IoFolderOutline className="me-2" /> Files Test
           </NavLink>
         </li>
 
