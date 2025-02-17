@@ -17,7 +17,7 @@ const MainNavigation = () => {
             className="yobr-white-text-color yobr-hover-color nav-link"
             to="start"
           >
-            <RiRobot2Line /> Ai
+            <RiRobot2Line /> Aiiiiiii
           </NavLink>
         </li>
 
